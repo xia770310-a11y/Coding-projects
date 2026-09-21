@@ -1,1 +1,4 @@
-
+Heres how SMA works:
+i constantly calculate the 20 day average (SMA20) which is 1-20, 2-21 etc... as well as the 50 day average (SMA50) 1-50, 2-51, ... 
+if SMA20<SMA50 that means the stock price has a downward trend vice versa 
+(SMA20<SMA50 --> SMA20>SMA50)=> stock is moving from downward trend to upward trend we buy vice versa
