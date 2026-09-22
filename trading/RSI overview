@@ -1,0 +1,5 @@
+similar to simple moving average but you do it on the 14 day gains and 14 day losses 
+ie. you have 2 lists gains=[1-14 gains average, 2-15 gains average, ...] and loss=[1-14 loss average, 2-15 loss average, ...]
+you can now make a new list with RS values [1-14 gains average/1-14 loss average, 2-15 gains average/2-15 loss average, ...]
+if the RS is high that means the stock is very overbought, that mean 100/(1+RS) will be very low so RSI=100-100/(1+RS) will be high and vice versa
+if RSI goes from high to low that means the price is going down we buy and vice versa 
